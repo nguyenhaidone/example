@@ -1,0 +1,16 @@
+.container {
+  width: 400px;
+  border: 1px solid blue;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  flex-basis: 25%;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0;
+  background-color: aquamarine;
+  flex-basis: 25%;
+}
